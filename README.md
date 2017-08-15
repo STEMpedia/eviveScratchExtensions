@@ -94,8 +94,18 @@ The next step is to express your logic in a way so that the computer can underst
 6. If want to turn ON the LED, digital pin 13 should be HIGH, which can be done using ‘set digital pin’ block. Drag and snap the block inside if block. Next to the pin inside the block you can see white space where you have to input the pin number (13 in this case). To turn the pin HIGH, select the option at the end of the block.
 7. Similarly, turn off the LED in the else block. The final script is given below. 
 
-![image](https://user-images.githubusercontent.com/20287504/29313496-fac0cf1e-81d7-11e7-8c70-369772e640ec.png)
+![2017-08-11 at 13-40-52](https://user-images.githubusercontent.com/20287504/29314588-39c8d48c-81dc-11e7-86db-1e3374d5e5be.png)
 
 Your program is ready now and you can press ‘space’ to start it. The whole script will start glowing indicating that the program is running. To stop it press ‘Esc’ on keyboard.
 
+# Example: Arduino Mode (Controlling Pin 13 LED with evive Tactile Pin)
 
+***Arduino Mode***
+Under Arduino mode，the instruction blocks will be tranfer to Arduino C++ into Arduino IDe, and user could modify code in Arduino IDe, and then upload the code into Robot. In that case, the Robot is running offline and it can not interact with Scratch’s stage.
+
+In this example, we want to turn on an LED whenever you press tactile switch 1 of evive.
+The logic is similar to the previous example, you just have to change the hat block to Arduino Program and boolean block. The new script is shown below:
+
+![2017-08-11 at 10-17-42](https://user-images.githubusercontent.com/20287504/29314569-1eb73742-81dc-11e7-84cd-e3b60b35a181.png)
+
+Right click on the hat block and click upload to Arduino. Upload the code and you are done.
