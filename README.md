@@ -47,3 +47,24 @@ Scratch is a free programming language where you can create your own innovative 
     9. After the installation is finished press “Finish”. You have now installed Scratch in your computer.
     
         ![s8](https://user-images.githubusercontent.com/20287504/29312718-4a088598-81d4-11e7-82c9-1a80090bd8ad.PNG)
+
+3. After installing Arduino IDE and Scratch, go to My Computer > Disk C > Program files. There you will find Arduino folder, where Arduino IDE is installed. Copy that folder.
+4. Then, in the same folder (Program Files), you will find mBlock folder. Go into the folder.
+5. There you will see another Arduino folder. Delete that folder.
+6. Copy the previous Arduino folder here.
+7. Install extensions:
+    1. Download the extensions (Arduino, evive App, evive Inbuilt Functions, evive TFT Display and evive Tinkering) from here: https://github.com/evivetoolkit/eviveScratchExtensions/tree/master/Extensions.
+    2. Open mBlock
+    3. Go to Extensions in Toolbar and click Manage Extension
+    4. A new window will pop-up with two tabs (available and installed). Click on intalled, and then click on Add Extension.
+    5. Change the file type to .zip and select the previously downloaded extensions one by one.
+    
+        ![2017-08-15 at 14-52-41](https://user-images.githubusercontent.com/20287504/29313203-5fbee24a-81d6-11e7-934f-38b53e6adfed.png)
+    6. After adding all the extensions, close the pop-up. In Robots palette, you can see the extension blocks.
+8. To work on Scratch mode, you have to upload a firmware to evive. Follow the steps:
+    1. Download the firmware from here: https://github.com/evivetoolkit/eviveScratchExtensions/blob/master/Scatch%20Firmware/eviveScratchFirmware.zip
+    2. Unzip the folder.
+    3. Open eviveScratchFirmware.ino in Arduino IDE.
+    4. Upload the code to evive.
+    5. Open Srcatch, go to connect, then serial and select COM Port. 
+    6. You are all set to work in Scratch mode.
