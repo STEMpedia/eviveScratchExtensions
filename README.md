@@ -68,3 +68,34 @@ Scratch is a free programming language where you can create your own innovative 
     4. Upload the code to evive.
     5. Open Srcatch, go to connect, then serial and select COM Port. 
     6. You are all set to work in Scratch mode.
+    
+# Example: Scratch Mode (Controlling Pin 13 LED with your Keyboard)
+
+***Scratch Mode:*** 
+Under Scratch mode which is defualt mode when mBlock start, mBlock could program robot through USB serial port, the robot is running a program could communicate with mBlock, and robot could intercate with Stage and create more insteresting projects and animations.
+
+In this example, we want to turn on an LED whenever you press Space in your keyboard. There is a programmable LED in evive which is connected to the digital pin 13. Hence, whenever the pin 13 is HIGH the LED glows and whenever the pin 13 is LOW it turns off.
+
+We will be continuously checking if the Space key is pressed. This will be either true or false. Now, we will use conditional statements, which will take decision to execute particular statements according to the result. In our case, this is if-else, where if the result is true, LED will be ON, else LED will be OFF. 
+
+
+![image](https://user-images.githubusercontent.com/20287504/29313413-87bfb91c-81d7-11e7-816b-b095c48c82c5.png)
+
+The next step is to express your logic in a way so that the computer can understand it. This is easy if one uses Scratch since it has built in blocks for basic functions and one does not have to write stuff every time. For e.g. there is a block named ‘when flag is pressed’, which starts the execution of the program when flag above stage is pressed which can be used to start our program:
+
+1. Whenever you want to run a code, you have to start with a Hat block which is present in Event category. As told above, there is a block named ‘when flag key is pressed’. We will use this block to start our program. Drag the block and drop the block in the script using mouse.
+
+![image](https://user-images.githubusercontent.com/20287504/29313482-e5a6d268-81d7-11e7-8718-2075fa32a280.png)
+
+2. Now, we want to run the code forever. For these type of functions there is a C block named ‘Forever’, which runs the code inside it continuously in loop. Drag the block and snap it below the hat block.
+3. To check the condition drag drop ‘If – Else’ block and place it inside forever block.
+4. To check if the key is pressed or not we will use ‘is key pressed’ from Sensing palette. It gives true when Space key is pressed and false if the Space is not pressed. Place it inside the if else block.
+5. To access the evive digital pin 13 upload evive Scratch Firmware.
+6. If want to turn ON the LED, digital pin 13 should be HIGH, which can be done using ‘set digital pin’ block. Drag and snap the block inside if block. Next to the pin inside the block you can see white space where you have to input the pin number (13 in this case). To turn the pin HIGH, select the option at the end of the block.
+7. Similarly, turn off the LED in the else block. The final script is given below. 
+
+![image](https://user-images.githubusercontent.com/20287504/29313496-fac0cf1e-81d7-11e7-8c70-369772e640ec.png)
+
+Your program is ready now and you can press ‘space’ to start it. The whole script will start glowing indicating that the program is running. To stop it press ‘Esc’ on keyboard.
+
+
