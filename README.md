@@ -24,11 +24,26 @@ Scratch is a free programming language where you can create your own innovative 
 2. Download and install the latest version of mBlock from http://mblock.cc. (Installation of mblock is simple and pretty straight forward. Here we are showing the installation steps for windows user only.)
     1. Go to www.mblock.cc and download the program, by clicking on “Windows Download” buttons.
     2. When the download is finished, unzip the file. In the folder, you will find mBlock application setup file (.exe extension). Run the setup.
-    ![s1](https://user-images.githubusercontent.com/20287504/29312705-3fde0d90-81d4-11e7-863b-5655628ff6bc.png)
+        
+        ![s1](https://user-images.githubusercontent.com/20287504/29312705-3fde0d90-81d4-11e7-863b-5655628ff6bc.png)
     3. Choose the appropriate language and press “OK”. In our case, we are choosing English.
+    
+        ![s2](https://user-images.githubusercontent.com/20287504/29312707-4113cff6-81d4-11e7-81c0-e63d4f42e776.PNG)
     4. A new window will popup. Press “Next”.
+    
+        ![s3](https://user-images.githubusercontent.com/20287504/29312710-42a97ee2-81d4-11e7-88bc-f0bd6652f4d6.PNG)
     5. Choose the installation directory (We suggest you to not change the directory). Then press “Next”.
+    
+        ![s4](https://user-images.githubusercontent.com/20287504/29312711-43e98d56-81d4-11e7-8f78-ae6fd7eb538b.PNG)
     6. Select start menu folder, where the setup will place the program’s shortcuts. Then press “Next”.
+        
+        ![s5](https://user-images.githubusercontent.com/20287504/29312714-454f7656-81d4-11e7-9e08-511f304a6050.PNG)
     7. Check the “Create a desktop icon”, if you want to create the desktop icon. Then press “Next”.
+        
+        ![s6](https://user-images.githubusercontent.com/20287504/29312716-46b895d6-81d4-11e7-8b6a-e3b9fa221182.PNG)
     8. Press “Install”.
+    
+        ![s7](https://user-images.githubusercontent.com/20287504/29312717-47f62350-81d4-11e7-9751-26183e94a5b0.PNG)
     9. After the installation is finished press “Finish”. You have now installed Scratch in your computer.
+    
+        ![s8](https://user-images.githubusercontent.com/20287504/29312718-4a088598-81d4-11e7-82c9-1a80090bd8ad.PNG)
